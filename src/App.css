@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.nav{
+  display: flex;
+  padding-top: 6px;
+  padding-right: 30px;
+  padding-left: 20px;
+  background-color: rgb(1, 1, 60);
+  color: antiquewhite;
+  justify-content: space-between;
+  border: 1px solid silver;
+}
+
+h1{
+  text-shadow: 2px 2px gold;
+}
+
+
+.container{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   width: 1300px;
+   margin: 30px auto;
+   padding: 0;
+   grid-gap: 20px;
+
+}
+
+.toggleForm{
+  height: 30px;
+  background-color: white;
+  color:rgb(1, 1, 60);
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+form{
+  border: 1px solid silver;
+  padding: 30px;
+  width:400px;
+
+  margin: 30px auto;
+}
+
+input{
+  height: 25px;
+  width: 350px;
+  margin-bottom: 10px;
+}
+
+
+img{
+  height: 300px;
+  width:400px;
+  border-radius: 5px;
+}
+.mainDiv{
+  width: 500px;
+  border: 1px solid silver;
+}
+
+.mainCon{
+  display: flex;
+  gap: 20px;
+}
+
+.sortDiv{
+  border: 1px solid silver;
+  padding: 20px;
+  height: 300px;
+  width:200px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#selectPrice{
+  height: 30px;
+  width:150px;
+  font-weight: 600;
+  border: 1px solid rgb(2, 2, 97);
+  margin-bottom: 30px;
+}
+
+#selectRating{
+  height: 30px;
+  width:150px;
+  font-weight: 600;
+  border: 1px solid rgb(2, 2, 97);
+}

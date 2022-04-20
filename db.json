@@ -1,0 +1,12 @@
+{
+    "AddRestaurant": [
+      {
+        "name": "swiggy",
+        "price": 100,
+        "address": "Punjab",
+       " img": "https://1000logos.net/wp-content/uploads/2021/05/Swiggy-logo.png",
+        "votes": 500,
+        "id": 1
+      }
+    ]
+}
